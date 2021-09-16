@@ -1,0 +1,8 @@
+import cv2
+
+# Read a rgb image
+image = cv2.imread('cgfc1.jpg')
+
+# Show a rgb image
+cv2.imshow('cgfc1.jpg', image)
+cv2.waitKey(0)
